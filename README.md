@@ -33,3 +33,5 @@ function berekenInhoud(getaalA, getaalB, getaalC){
         let som = getaalA * Math.pow(getaalB, 2) * getaalC;
         console.log(som);
     }
+
+## made the code moor readeble
