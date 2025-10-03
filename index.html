@@ -9,12 +9,16 @@
     
 </body>
 <script>
-    function berekenInhoud(getaalA, getaalB, getaalC){
+    function berekenInhoudkubes(getaalA, getaalB, getaalC){
+        let som = getaalA * getaalB * getaalC;
+        console.log(som);
+    }
+    function berekenInhoudclinder(getaalA, getaalB, getaalC){
         let som = getaalA * Math.pow(getaalB, 2) * getaalC;
         console.log(som);
     }
-    let kubesinhout = berekenInhoud(10, 5 ,10);
-    let cilinderinhout = berekenInhoud(Math.PI , 5, 10);
+    let kubesinhout = berekenInhoudkubes(10, 5 ,10);
+    let cilinderinhout = berekenInhoudclinder(Math.PI , 5, 10);
     function pytagoras(getaalA, getaalB){
         let som = Math.sqrt(Math.pow(getaalA, 2) + Math.pow(getaalB, 2));
         console.log(som);

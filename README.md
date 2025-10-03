@@ -19,3 +19,17 @@ wiskunde berekeningen in javascript
     }
     let gemiddeltgetaal = gemmidelt(5,3,7,9,2,1,7 )
 </script>
+## added function berekenInhoudkubes(getaalA, getaalB, getaalC){
+        let som = getaalA * getaalB * getaalC;
+        console.log(som);
+
+## change 
+function berekenInhoud(getaalA, getaalB, getaalC){
+        let som = getaalA * Math.pow(getaalB, 2) * getaalC;
+        onsole.log(som);
+    }
+ ## to 
+ function berekenInhoudclinder(getaalA, getaalB, getaalC){
+        let som = getaalA * Math.pow(getaalB, 2) * getaalC;
+        console.log(som);
+    }
